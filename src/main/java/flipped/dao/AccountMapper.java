@@ -11,6 +11,8 @@ import org.apache.ibatis.annotations.Select;
  * @Created by zh
  */
 
+//使用注解形式写sql语句就加上@Mapper
+
 public interface AccountMapper {
 
 //    @Select("select * from `account` where `name`=#{name}")

@@ -12,5 +12,9 @@ import lombok.Data;
 
 @Data
 public class Employee {
+    private Integer  id;
+    private String gender;
     private String name;
+    private Integer age;
+    private  Integer salary;
 }

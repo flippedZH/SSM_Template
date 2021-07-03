@@ -9,5 +9,9 @@
         <setting name="mapUnderscoreToCamelCase" value="false"/>
     </settings>
 
+    <plugins>
+        <plugin interceptor="com.github.pagehelper.PageInterceptor"></plugin>
+    </plugins>
+
 </configuration>
 

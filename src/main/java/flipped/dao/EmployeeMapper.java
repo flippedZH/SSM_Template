@@ -1,8 +1,11 @@
 package flipped.dao;
 
 import flipped.pojo.Account;
+import flipped.pojo.Employee;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Select;
+
+import java.util.List;
 
 /**
  * @Classname EmployeeMapper
@@ -11,8 +14,7 @@ import org.apache.ibatis.annotations.Select;
  * @Created by zh
  */
 
-@Mapper
 public interface EmployeeMapper {
 
-    Account selectTest();
+     List<Employee> getEmployee();
 }
